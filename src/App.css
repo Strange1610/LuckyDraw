@@ -1,0 +1,195 @@
+body{
+    margin:0;
+    background:#0f172a;
+    font-family:"Microsoft YaHei";
+}
+
+.app{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:white;
+}
+
+.main-area{
+
+    margin-top:40px;
+}
+
+.start-btn{
+
+    width:180px;
+
+    height:60px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    background:#ff5722;
+
+    color:white;
+
+    transition:.2s;
+
+    margin-top: 30px;
+}
+
+.start-btn:hover{
+
+    transform:scale(1.08);
+}
+
+.name-list{
+
+    margin-top:30px;
+
+    width:300px;
+
+    max-height:300px;
+
+    overflow:auto;
+
+    background:white;
+
+    color:black;
+
+    border-radius:10px;
+
+    padding:15px;
+
+}
+
+.name-list div{
+
+    padding:8px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.machine{
+
+    margin-top:40px;
+
+    width:300px;
+
+    height:120px;
+
+    background:white;
+
+    border-radius:15px;
+
+    color:black;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+
+    font-weight:bold;
+
+}
+
+.title-bar{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+.admin-icon{
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    opacity:.3;
+
+    user-select:none;
+
+}
+
+.admin-icon:hover{
+
+    opacity:1;
+
+}
+
+.modal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.4);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.modal{
+
+    width:420px;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    color:black;
+
+}
+
+.setting-row{
+
+    margin:20px 0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.setting-row select{
+
+    width:180px;
+
+    height:35px;
+
+}
+
+.button-group{
+
+    margin-top:30px;
+
+    text-align:right;
+
+}
