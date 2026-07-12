@@ -44,11 +44,13 @@ function useLottery() {
          */
         if (
             cheatConfig.enabled &&
-            cheatConfig.winners[round]
+            cheatConfig.winners[round] &&
+            availableNames.includes(
+                cheatConfig.winners[round]
+            )
         ) {
             winner = cheatConfig.winners[round];
         }
-
 
         /**
          * 指定的人已经中过奖

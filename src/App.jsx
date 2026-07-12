@@ -54,14 +54,18 @@ function App() {
         <div className="app">
 
             <div className="title-bar">
-                <h1>🎉 幸运抽奖系统 🎉</h1>
-
-                <span
-                    className="admin-icon"
+                <span className="title-emoji">
+                    🎉
+                </span>
+                <h1>
+                    幸运抽奖系统
+                </h1>
+                <button
+                    className="admin-btn"
                     onClick={() => setAdminOpen(true)}
                 >
-                    ⚙
-                </span>
+                    🎉
+                </button>
             </div>
 
 
